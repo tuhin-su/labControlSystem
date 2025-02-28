@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Trap Ctrl+C and other signals to disable exit
-# trap "echo 'Exit is disabled!';" SIGINT SIGTERM SIGQUIT
+trap "echo 'Exit is disabled!';" SIGINT SIGTERM SIGQUIT
 
 # Function to check for updates
 check_updates() {
